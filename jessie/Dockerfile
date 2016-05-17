@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM buildpack-deps:jessie-i386-scm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		autoconf \

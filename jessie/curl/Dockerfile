@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM i386/debian:jessie
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
